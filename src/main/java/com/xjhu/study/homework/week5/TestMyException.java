@@ -13,7 +13,7 @@ public class TestMyException {
         BookService bookService = new BookServiceImpl();
         boolean result = false;
         try {
-            result = bookService.BookUpload(book3);
+            result = bookService.BookUpload(book4);
         }catch (MyException e){
             System.err.println(e.toString());
         }finally {
